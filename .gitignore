@@ -1,0 +1,71 @@
+# ============================
+# Secrets / configuration
+# ============================
+.env
+.env.local
+*.key
+
+# ============================
+# Environnements virtuels Python
+# ============================
+venv/
+.venv/
+env/
+ENV/
+
+# ============================
+# Cache et fichiers compiles Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# ============================
+# Playwright / navigateurs
+# ============================
+playwright-report/
+test-results/
+.playwright/
+
+# ============================
+# Streamlit
+# ============================
+.streamlit/secrets.toml
+
+# ============================
+# Fichiers generes par le projet (scrapers crees automatiquement)
+# Decommente la ligne suivante si tu ne veux PAS versionner les scrapers
+# generes (optionnel, a toi de choisir) :
+# scraper_*.py
+
+# ============================
+# Logs
+# ============================
+*.log
+logs/
+
+# ============================
+# Editeurs / IDE
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# OS (Windows / Mac)
+# ============================
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ============================
+# Divers
+# ============================
+*.tmp
+*.bak

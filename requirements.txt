@@ -1,0 +1,6 @@
+﻿browser-use
+langchain-openai
+playwright
+python-dotenv
+lxml
+requests
